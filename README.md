@@ -8,3 +8,17 @@ Este template corresponde ao exemplo da Fig. 2.3 do livro. O exercício consiste
 Tarefa individual.
 
 Incluir um Readme descritivo do sistema implementado.
+#Descrição do Sistema
+
+O servidor oferece operações de conversão de unidades, que podem ser solicitadas pelo cliente através de mensagens enviadas pela rede.
+
+O cliente envia uma requisição com a operação desejada e um valor numérico, e o servidor processa essa requisição e retorna o resultado.
+
+##Operações
+O servidor suporta as seguintes conversões:
+c_to_f – Celsius → Fahrenheit
+f_to_c – Fahrenheit → Celsius
+km_to_miles – Quilômetros → Milhas
+miles_to_km – Milhas → Quilômetros
+kg_to_lb – Quilogramas → Libras
+lb_to_kg – Libras → Quilogramas
